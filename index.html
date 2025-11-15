@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Бесконечная прокрутка</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>✨ Бесконечная прокрутка</h1>
+        <p>Прокручивайте вниз чтобы загрузить больше контента</p>
+    </header>
+
+    <main>
+        <div id="content">
+            <!-- Начальный контент -->
+            <div class="item">
+                <h2>Элемент 1</h2>
+                <p>Это первый элемент вашей бесконечной ленты</p>
+            </div>
+            <div class="item">
+                <h2>Элемент 2</h2>
+                <p>Продолжайте прокручивать чтобы увидеть больше</p>
+            </div>
+            <div class="item">
+                <h2>Элемент 3</h2>
+                <p>Контент будет подгружаться автоматически</p>
+            </div>
+        </div>
+
+        <div id="loading" class="loading">
+            <div class="spinner"></div>
+            <p>Загружаем ещё контент...</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>Сайт с бесконечной прокруткой © 2024</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
